@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghav Khatik | Cyber Interactive Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+   <script src="Script.js"defer></script>
+
+
+</head>
+<body>
+
+    <h2 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Raghav Khatik ultimate animated portfolio</h2>
+
+    <canvas id="matrix"></canvas>
+    <div class="gridbg"></div>
+    <canvas id="pts"></canvas>
+
+    <nav>
+      <div class="nav-logo">RK.EXE</div>
+      <div class="nav-links">
+        <a onclick="document.getElementById('skills').scrollIntoView({behavior:'smooth'})">Skills</a>
+        <a onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">Projects</a>
+        <a onclick="document.getElementById('education').scrollIntoView({behavior:'smooth'})">Edu</a>
+        <a onclick="document.getElementById('resume').scrollIntoView({behavior:'smooth'})">Resume</a>
+        <a onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-left">
+        <div class="badge-online"><div class="bd"></div><span class="bt">SYS_ONLINE · AVAILABLE</span></div>
+        <div class="glitch-wrap">
+          <div class="hero-name" data-text="RAGHAV">RAGHAV</div>
+          <div class="hero-accent">KHATIK</div>
+        </div>
+        <div class="tw-wrap">
+          <span class="tw-label">&gt;&gt;</span>
+          <span id="tw" class="tw-txt"></span>
+          <span class="tw-caret">█</span>
+        </div>
+        <p class="hero-desc">MCA student engineering data-driven insights and full-stack web applications. Transforming raw datasets into strategic intelligence — from Rajasthan, India.</p>
+        <div class="hero-btns">
+          <a class="btn-neon" href="mailto:raghavkhatik523@gmail.com">📨 EMAIL.SEND()</a>
+          <a class="btn-neon2" href="https://www.linkedin.com/in/raghavkhatik" target="_blank">🔗 LINKEDIN.IO</a>
+        </div>
+        <div class="chips">
+          <span class="chip ch1">DATA_ANALYTICS</span>
+          <span class="chip ch2">MACHINE_LEARNING</span>
+          <span class="chip ch3">FULL_STACK</span>
+          <span class="chip ch4">PYTHON</span>
+          <span class="chip ch1">SQL</span>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="av-scene">
+          <div class="av-ring1"><div class="av-dot av-dot1"></div></div>
+          <div class="av-ring2"><div class="av-dot av-dot2"></div></div>
+          <div class="av-ring3"><div class="av-dot av-dot3"></div></div>
+          <div class="av-hex"></div>
+          <div class="av-core">
+            <span class="av-init">RK</span>
+            <div class="av-scan"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section revZ" style="padding-top:1rem">
+      <div class="stats-strip">
+        <div class="stat-box revZ"><div class="stat-num" data-target="2">0</div><div class="stat-lbl">PROJECTS_SHIPPED</div></div>
+        <div class="stat-box revZ"><div class="stat-num" data-target="7">0</div><div class="stat-lbl">CERTIFICATIONS</div></div>
+        <div class="stat-box revZ"><div class="stat-num" data-target="10">0</div><div class="stat-lbl">TECH_SKILLS</div></div>
+        <div class="stat-box revZ"><div class="stat-num" data-target="3">0</div><div class="stat-lbl">DEGREES_EARNED</div></div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="section reveal" id="skills">
+      <div class="sec-head"><div class="sec-line"></div><span class="sec-label">// Technical Matrix</span></div>
+      <h2 class="sec-title"><span class="hl">SKILL</span>_MODULES</h2>
+      <div class="sk-grid">
+        <div class="sk-card"><div class="sk-top-line"></div><span class="sk-ico">🐍</span><div class="sk-nm">Python</div><div class="sk-tags"><span class="sk-t">Core Python</span><span class="sk-t">OOP</span><span class="sk-t">Scripting</span><span class="sk-t">Automation</span></div></div>
+        <div class="sk-card"><div class="sk-top-line"></div><span class="sk-ico">📊</span><div class="sk-nm">Data Analyst using Python</div><div class="sk-tags"><span class="sk-t">Pandas</span><span class="sk-t">NumPy</span><span class="sk-t">Matplotlib</span><span class="sk-t">ML Basics</span><span class="sk-t">Preprocessing</span></div></div>
+        <div class="sk-card"><div class="sk-top-line"></div><span class="sk-ico">🌐</span><div class="sk-nm">Web Development</div><div class="sk-tags"><span class="sk-t">HTML5</span><span class="sk-t">CSS3</span><span class="sk-t">JavaScript</span><span class="sk-t">PHP</span><span class="sk-t">Bootstrap</span></div></div>
+        <div class="sk-card"><div class="sk-top-line"></div><span class="sk-ico">🗄️</span><div class="sk-nm">Databases</div><div class="sk-tags"><span class="sk-t">MySQL</span><span class="sk-t">Oracle SQL</span><span class="sk-t">DBMS</span><span class="sk-t">Queries</span></div></div>
+        <div class="sk-card"><div class="sk-top-line"></div><span class="sk-ico">⚙️</span><div class="sk-nm">Languages</div><div class="sk-tags"><span class="sk-t">Java</span><span class="sk-t">C</span><span class="sk-t">C++</span><span class="sk-t">DSA</span><span class="sk-t">OOP</span></div></div>
+        <div class="sk-card"><div class="sk-top-line"></div><span class="sk-ico">🛠️</span><div class="sk-nm">Tools & Platforms</div><div class="sk-tags"><span class="sk-t">GitHub</span><span class="sk-t">VS Code</span><span class="sk-t">WordPress</span><span class="sk-t">MS Office</span></div></div>
+      </div>
+      <div class="bars reveal" id="skillbars">
+        <div class="bar-item"><div class="bar-top"><span class="bar-lbl">PYTHON &amp; DATA ANALYSIS</span><span class="bar-pct">88%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:88%"></div></div></div>
+        <div class="bar-item"><div class="bar-top"><span class="bar-lbl">WEB DEVELOPMENT</span><span class="bar-pct">82%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:82%"></div></div></div>
+        <div class="bar-item"><div class="bar-top"><span class="bar-lbl">DATABASE &amp; SQL</span><span class="bar-pct">78%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:78%"></div></div></div>
+        <div class="bar-item"><div class="bar-top"><span class="bar-lbl">JAVA / C / C++</span><span class="bar-pct">72%</span></div><div class="bar-bg"><div class="bar-fill" style="--w:72%"></div></div></div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="section" id="projects">
+      <div class="sec-head"><div class="sec-line"></div><span class="sec-label">// Deployed Projects</span></div>
+      <h2 class="sec-title"><span class="hl">PROJECT</span>_LOGS</h2>
+      <div class="proj-grid">
+        <div class="proj-card revL">
+          <div class="proj-scan"></div>
+          <div class="proj-corners"><span class="pc-tl"></span><span class="pc-tr"></span><span class="pc-bl"></span><span class="pc-br"></span></div>
+          <div class="pbar-e"></div>
+          <div class="proj-head"><span class="proj-ico">✈️</span><span class="proj-badge pb-c">BCA FINAL YEAR</span></div>
+          <h3 class="proj-title">Tour &amp; Travel Management</h3>
+          <p class="proj-desc">Full-featured web app — 8+ modules, responsive UI, and a structured MySQL backend. Reduced manual data entry by 40% through automated query handling.</p>
+          <div class="proj-stats">
+            <div class="ps"><div class="ps-n ps-nc">500+</div><div class="ps-l">DB_RECORDS</div></div>
+            <div class="ps"><div class="ps-n ps-nc">8+</div><div class="ps-l">MODULES</div></div>
+            <div class="ps"><div class="ps-n ps-nc">40%</div><div class="ps-l">EFFICIENCY</div></div>
+          </div>
+          <div class="stk-row"><span class="stk stk-c">HTML</span><span class="stk stk-c">CSS</span><span class="stk stk-c">JS</span><span class="stk stk-c">MySQL</span><span class="stk stk-c">PHP</span></div>
+        </div>
+        <div class="proj-card revR">
+          <div class="proj-scan"></div>
+          <div class="proj-corners"><span class="pc-tl"></span><span class="pc-tr"></span><span class="pc-bl"></span><span class="pc-br"></span></div>
+          <div class="pbar-e pbar-e2"></div>
+          <div class="proj-head"><span class="proj-ico">📊</span><span class="proj-badge pb-p">ACADEMIC PROJECT</span></div>
+          <h3 class="proj-title">Data Analysis &amp; Visualization</h3>
+          <p class="proj-desc">Preprocessed 10K+ records, created 10+ Matplotlib visualizations, and applied ML preprocessing — cutting data cleaning time by 30%.</p>
+          <div class="proj-stats">
+            <div class="ps"><div class="ps-n ps-np">10K+</div><div class="ps-l">RECORDS</div></div>
+            <div class="ps"><div class="ps-n ps-np">35%</div><div class="ps-l">ERROR_DROP</div></div>
+            <div class="ps"><div class="ps-n ps-np">30%</div><div class="ps-l">FASTER</div></div>
+          </div>
+          <div class="stk-row"><span class="stk stk-p">Python</span><span class="stk stk-p">Pandas</span><span class="stk stk-p">NumPy</span><span class="stk stk-p">Matplotlib</span></div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="section reveal" id="education">
+      <div class="sec-head"><div class="sec-line"></div><span class="sec-label">// Academic Log</span></div>
+      <h2 class="sec-title"><span class="hl">EDU</span>_PATH</h2>
+      <div class="edu-wrap">
+        <div class="edu-wire"></div>
+        <div class="edu-item"><div class="edu-node en0"></div><div class="edu-yr">2025 – PRESENT</div><div class="edu-deg">Master of Computer Applications (MCA)</div><div class="edu-sch">Mandsaur University (MIT), Mandsaur</div></div>
+        <div class="edu-item"><div class="edu-node en1"></div><div class="edu-yr">JULY 2022 – APRIL 2025</div><div class="edu-deg">Bachelor of Computer Applications (BCA)</div><div class="edu-sch">GGTU University, Banswara</div></div>
+        <div class="edu-item"><div class="edu-node en2"></div><div class="edu-yr">2022</div><div class="edu-deg">Higher Secondary (12th Grade)</div><div class="edu-sch">BSER, Ajmer — Rajasthan</div></div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="section reveal" id="resume">
+      <div class="sec-head"><div class="sec-line"></div><span class="sec-label">// Resume Access</span></div>
+      <h2 class="sec-title"><span class="hl">RESUME</span>_FILE</h2>
+
+      <div class="resume-wrap">
+        <div class="resume-scan"></div>
+        <div class="resume-corners"><span class="rc-tl"></span><span class="rc-tr"></span><span class="rc-bl"></span><span class="rc-br"></span></div>
+        <div class="resume-grid-bg"></div>
+        <div class="resume-glow1"></div><div class="resume-glow2"></div>
+
+        <div class="resume-inner">
+          <div class="resume-icon-zone">
+            <div class="resume-ring"></div>
+            <div class="resume-ring2"></div>
+            <div class="resume-doc">
+              <div class="doc-line dl1"></div>
+              <div class="doc-line dl2"></div>
+              <div class="doc-line dl3"></div>
+              <div class="doc-line dl4"></div>
+              <span class="doc-tag">PDF</span>
+            </div>
+          </div>
+
+          <div class="resume-info">
+            <div class="badge-online resume-badge"><div class="bd"></div><span class="bt">FILE_VERIFIED · READY_TO_TRANSMIT</span></div>
+            <div class="resume-fname">Raghav_Khatik_Resume.pdf</div>
+            <div class="resume-meta">
+              <span class="rm-item">FORMAT: <b>PDF</b></span>
+              <span class="rm-item">UPDATED: <b>JUL_2026</b></span>
+              <span class="rm-item">STATUS: <b class="rm-ok">VERIFIED ✓</b></span>
+            </div>
+            <div class="resume-bar"><div class="resume-bar-fill"></div></div>
+            <div class="resume-btns">
+              <a class="btn-neon" href="Raghav_Khatik_Resume.pdf" target="_blank">👁 VIEW.RESUME()</a>
+              <a class="btn-neon2" href="Raghav_Khatik_Resume.pdf" download="Raghav_Khatik_Resume.pdf">⬇ DOWNLOAD.PDF()</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="section reveal">
+      <div class="sec-head"><div class="sec-line"></div><span class="sec-label">// Achievement Registry</span></div>
+      <h2 class="sec-title"><span class="hl">CERTS</span>_&amp;_BADGES</h2>
+      <div class="cert-grid">
+        <div class="cert-card"><span class="cert-ico">🏅</span><div><div class="cert-nm">Python Bootcamp: Interview Prep</div><div class="cert-org">Indeed Inspiring Infotech · 2025</div></div></div>
+        <div class="cert-card"><span class="cert-ico">📈</span><div><div class="cert-nm">Data Analyst Masterclass</div><div class="cert-org">PW Skills · 2025</div></div></div>
+        <div class="cert-card"><span class="cert-ico">📈</span><div><div class="cert-nm">Tata - GenAI Powered Data Analytics Job Simulation</div><div class="cert-org">Forage · 2026</div></div></div>
+        <div class="cert-card"><span class="cert-ico">🏆</span><div><div class="cert-nm">AlgoArena 1.0 Participant</div><div class="cert-org">HackerRank & Mandsaur Univ · 2025</div></div></div>
+        <div class="cert-card"><span class="cert-ico">🚀</span><div><div class="cert-nm">National Webinar: Innovate, Build, Pitch</div><div class="cert-org">Mandsaur Univ IIC & IQAC · 2026</div></div></div>
+        <div class="cert-card"><span class="cert-ico">💻</span><div><div class="cert-nm">Rajasthan State Certificate in IT</div><div class="cert-org">VMOU, Kota · 2021</div></div></div>
+        <div class="cert-card"><span class="cert-ico">🔬</span><div><div class="cert-nm">State-Level Science Fair</div><div class="cert-org">Environmental Resource Innovation · 2017</div></div></div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="section reveal" id="contact">
+      <div class="contact-wrap">
+        <div class="contact-grid-bg"></div>
+        <div class="c-glow1"></div><div class="c-glow2"></div>
+        <div class="c-inner">
+          <div>
+            <h3 class="c-title"><span>INITIATE</span>_CONTACT</h3>
+            <p class="c-sub">OPEN_TO · INTERNSHIPS · FREELANCE · FULL_TIME_ROLES<br>DOMAINS · DATA_ANALYTICS · WEB_DEVELOPMENT</p>
+          </div>
+          <div class="c-btns">
+            <a class="c-btn" href="mailto:raghavkhatik523@gmail.com">📨 EMAIL.SEND()</a>
+            <a class="c-btn" href="https://www.linkedin.com/in/raghavkhatik" target="_blank">🔗 LINKEDIN.GET()</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>© 2026 &nbsp;·&nbsp; RAGHAV.KHATIK &nbsp;·&nbsp; PRATAPGARH · RAJASTHAN · INDIA &nbsp;·&nbsp; ALL_SYSTEMS_OPERATIONAL ✓</footer>
+
+    
+</body>
+</html>
